@@ -1,0 +1,84 @@
+    header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 7%;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  header h1 {
+    font-family: 'Charmonman', cursive;
+  }
+  header h2 {
+    font-family: 'Charmonman', cursive;
+  }
+  .contact {
+      margin-bottom: 7%;
+      background-image:url("photos/footer_image.jpg");
+      height: 570px;
+    }
+  #Send {
+        margin-left:72%;
+    }
+  .media-links a {
+    color:rgb(0, 156, 204);
+  }
+  .education {
+    margin-top:7%;
+  }
+  .skills {
+    margin-top:7%;
+    margin-bottom:7%;
+    background-image:linear-gradient(135deg,blue,white)
+  }
+  .skills h2 {
+    margin-top:3%;
+    font-family: 'Charmonman', cursive;
+  }
+  footer {
+    margin-top:7%;
+  }
+  #backend {
+    margin-left:5%;
+  }
+  #database {
+    margin-left:17%;
+  }
+  .language h2 {
+    margin-top:3%;
+  }
+  .language {
+    margin-bottom: 7%;
+  }
