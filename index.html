@@ -5,9 +5,33 @@
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet " href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">        
         <title>Houssem's Portfolio</title>
     </head>
     <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                      <a class="navbar-brand" href="#">Portfolio</a>
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Training</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Education</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>
         <header>
             <div class="overlay">
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -160,29 +184,37 @@
 
             <div class="container contact">
                     <div class="row">
-                        <div class="col-md-8">
-                            <img src="photos/photo.jpg" alt="profil photo" class="img-responsive rounded-circle"><br><br>
+                        <div class="col-lg-9 col-md-8">
+                            <img src="photos/photo.jpg" alt="profil photo" class="img-responsive border rounded-circle"><br><br>
                             <p style="color: white;"><strong>Phone:</strong> (+216) 25 506 442 </p>
-                            <p style="color: white;"><strong>Adress:</strong> 87, Elehsen's Street,<br> 4000 Sousse, Tunisia</p><br><br>
+                            <p style="color: white;"><strong>Adress:</strong> 87, Elehsen's Street,<br> 4000 Sousse, Tunisia</p>
+                            <p style="color: white;"><strong>Email:</strong> hossem.benmustapha@gmail.com</p><br><br>
                             <p style="color: white;"><strong>Media links:</strong></p>
                             <div class="media-links">
-                                <a href="#">Facebook</a> ,<a href="#">Twitter</a>,<a href="#">Linkedin</a> <br>
-                                <a href="#">Github</a> ,<a href="#">email</a>
+                                <a href="https://www.facebook.com/houssem.benmustapha.3" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/Mr_BenMustapha" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://www.linkedin.com/in/houssem-ben-mustapha-00a8b1121" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                                <a href="https://github.com/H0uss3m"target="_blank"><i class="fab fa-github-square"></i></a>
+                                <a href="https://www.instagram.com/hossem_benmustapha" target="_blank"><i class="fab fa-instagram"></i></a>
                             </div> 
                         </div>
-                        <div class="col-md-4">
-                            <h1 style="color: white;">Contact me</h1>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="row">
+                                <h1 style="color: white;">Contact me</h1>
+                            </div>
+                            <div class="col-md-12">
                             <form>
                                 <p style="color: white;">First Name:</p>
-                                <input type="text" name="firstname" value="Mickeal"><br><br>
+                                <input type="text" name="firstname" placeholder="Mickeal"><br><br>
                                 <p style="color: white;">Last Name:</p>
-                                <input type="text" name="lastname" value="Jackson"><br><br>
+                                <input type="text" name="lastname" placeholder="Jackson"><br><br>
                                 <p style="color: white">E-mail:</p> 
-                                <input type="email" name="emailaddress" value="abc@gmail.com"><br><br>
+                                <input type="email" name="emailaddress" placeholder="abc@gmail.com"><br><br>
                                 <p style="color: white;">Contact me :</p>
-                                <textarea rows="6" cols="40">leave your comment here ...</textarea><br>
-                                <input id="Send" type="submit" value="Send"/>
+                                <textarea rows="4" cols="28" placeholder="leave a comment here ..."></textarea><br>
+                                <button  type="button" class="btn btn-outline-primary">Send</button>
                             </form>
+                            </div>
                         </div>    
                     </div>
             
@@ -192,7 +224,7 @@
         <footer class="container footer">
                 <div class="row">
                     <div class="col-sm-12">
-                      <p class="text-center"> &copy; copyright 2018 </p>
+                      <p class="text-center"> &copy; copyrights 2018 </p>
                     </div>
                 </div>
         </footer>
